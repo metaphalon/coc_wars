@@ -1,0 +1,6213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CocClanManagement</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WGlAE4N34ammol/HPFXhSeI9eE5RHKpscYEO4zUAcTRmoUb1WveBwwpsCt2b7dsn8r2vG378abvzynrzQTSD3w==" />
+    
+
+    <link rel="stylesheet" media="all" href="/assets/league_groups.self-3ea31e99c5429e71de465a059353280e75b2ebb1dcc6cf25a480490373141ea9.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1" data-turbolinks-track="reload" />
+    <script src="/assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/league_groups.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <h2>League Group</h2>
+<a rel="nofollow" data-method="put" href="/league_groups/1">Update</a>
+<table class='league_information'>
+<tr>
+<td>
+<span class='label'>State</span>
+</td>
+<td>
+<span class='value'>inWar</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label'>Season</span>
+</td>
+<td>
+<span class='value'>2018-11</span>
+</td>
+</tr>
+</table>
+<h3>Clans</h3>
+<table class='clans'>
+<tr>
+<th></th>
+<th>Name</th>
+<th>Tag</th>
+<th>12</th>
+<th>11</th>
+<th>10</th>
+<th>9</th>
+<th>8</th>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/XH-gb9OnNSGV8hBOu5_S_lxNi0K3YeEmvUw1qBzusqg.png" /></td>
+<td>Bremen</td>
+<td>#2PC8RGPR</td>
+<td>12</td>
+<td>8</td>
+<td>13</td>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/2FCvDIuh8gKnJcYlFiZeBAOPe9HMVztG-QK4lh-6OEc.png" /></td>
+<td>sudan</td>
+<td>#YRQ22PQV</td>
+<td>15</td>
+<td>12</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/NpoXo7UqnqHDwwM43798PazI9AcebEVj_po5vi22nt4.png" /></td>
+<td>Treue Schwerter</td>
+<td>#89L9UYRQ</td>
+<td>11</td>
+<td>7</td>
+<td>2</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/duPjvGBy5Ptd6ZyGn4KpXzkxlxobLz0e2ONBo3PjiAk.png" /></td>
+<td>assemike</td>
+<td>#Q09LJPQC</td>
+<td>11</td>
+<td>14</td>
+<td>7</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/aRYhfiXBDZqfIP2fwCtEbnYbgl9mYvd00PsN1P9qkVc.png" /></td>
+<td>MyoMyanmarClan</td>
+<td>#QV8VJQL2</td>
+<td>9</td>
+<td>6</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/g--9Yts35NJ4DI3NZh8_g5FTQptrVqHhHSRjzId1c2Q.png" /></td>
+<td>Kaamelott</td>
+<td>#2LVP92U9</td>
+<td>10</td>
+<td>17</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/9CtclQw9_f27EMH920kDB-8Sx4IWIZ6ZHWA6q9MU98g.png" /></td>
+<td>! KRIEG !</td>
+<td>#8YPYPG8</td>
+<td>8</td>
+<td>11</td>
+<td>6</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/kCFSj9HB3eEcN7f0JoE233bXqUzNKAHJyV4GFCMyaM4.png" /></td>
+<td>king ri</td>
+<td>#PCY9J9GJ</td>
+<td>12</td>
+<td>5</td>
+<td>4</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</table>
+<h3>Rounds</h3>
+<h4>Round 1</h4>
+<table class='war'>
+<tr>
+<td>Bremen</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/XH-gb9OnNSGV8hBOu5_S_lxNi0K3YeEmvUw1qBzusqg.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/2FCvDIuh8gKnJcYlFiZeBAOPe9HMVztG-QK4lh-6OEc.png" /></td>
+<td>sudan</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>28</td>
+<td class='center' colspan='2'>Stars</td>
+<td>31</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>10</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>11</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>13</td>
+</tr>
+<tr>
+<td>4</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+Berry
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td class='center'>
+2
+(88.0)
+</td>
+<td>
+أبو حسام
+</td>
+</tr>
+<tr>
+<td>
+⚡️BIENE WOWA⚡️
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+شوقنا
+</td>
+</tr>
+<tr>
+<td>
+Highway to Hell
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+ombada
+</td>
+</tr>
+<tr>
+<td>
+Giggy
+</td>
+<td class='center'>
+2
+(94.0)
+</td>
+<td class='center'>
+2
+(85.0)
+</td>
+<td>
+7abba
+</td>
+</tr>
+<tr>
+<td>
+Metaphalon
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td>
+mad
+</td>
+</tr>
+<tr>
+<td>
+reallexa
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(64.0)
+</td>
+<td>
+Sami
+</td>
+</tr>
+<tr>
+<td>
+Jannik
+</td>
+<td class='center'>
+2
+(97.0)
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td>
+فان بيرسي
+</td>
+</tr>
+<tr>
+<td>
+FuzzlyFeel
+</td>
+<td class='center'>
+1
+(87.0)
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td>
+abdo
+</td>
+</tr>
+<tr>
+<td>
+BadMoonKiller
+</td>
+<td class='center'>
+1
+(57.0)
+</td>
+<td class='center'>
+1
+(40.0)
+</td>
+<td>
+Silent Killer
+</td>
+</tr>
+<tr>
+<td>
+Anni Hexe
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td>
+polpol
+</td>
+</tr>
+<tr>
+<td>
+Renog
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td class='center'>
+2
+(79.0)
+</td>
+<td>
+Jonpo5
+</td>
+</tr>
+<tr>
+<td>
+israfil
+</td>
+<td class='center'>
+2
+(88.0)
+</td>
+<td class='center'>
+2
+(72.0)
+</td>
+<td>
+jeirchio
+</td>
+</tr>
+<tr>
+<td>
+niclash
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td class='center'>
+1
+(49.0)
+</td>
+<td>
+ايمن حمد
+</td>
+</tr>
+<tr>
+<td>
+TheLUCKYSTRIKE
+</td>
+<td class='center'>
+2
+(73.0)
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td>
+naif
+</td>
+</tr>
+<tr>
+<td>
+walter
+</td>
+<td class='center'>
+1
+(34.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+mohamed
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Treue Schwerter</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/NpoXo7UqnqHDwwM43798PazI9AcebEVj_po5vi22nt4.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/aRYhfiXBDZqfIP2fwCtEbnYbgl9mYvd00PsN1P9qkVc.png" /></td>
+<td>MyoMyanmarClan</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>23</td>
+<td class='center' colspan='2'>Stars</td>
+<td>26</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>5</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+speedfight_001
+</td>
+<td class='center'>
+1
+(69.0)
+</td>
+<td class='center'>
+1
+(83.0)
+</td>
+<td>
+kyawyenaing
+</td>
+</tr>
+<tr>
+<td>
+⚔️ Noggy ⚔️
+</td>
+<td class='center'>
+1
+(82.0)
+</td>
+<td class='center'>
+2
+(87.0)
+</td>
+<td>
+Min Kyi Min Lay
+</td>
+</tr>
+<tr>
+<td>
+Wolle
+</td>
+<td class='center'>
+2
+(78.0)
+</td>
+<td class='center'>
+1
+(50.0)
+</td>
+<td>
+soemintun
+</td>
+</tr>
+<tr>
+<td>
+Josef Dietrich
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+myo min
+</td>
+</tr>
+<tr>
+<td>
+saschispatzi75
+</td>
+<td class='center'>
+0
+(47.0)
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td>
+sam
+</td>
+</tr>
+<tr>
+<td>
+&gt;&gt;chris&lt;&lt;
+</td>
+<td class='center'>
+2
+(55.0)
+</td>
+<td class='center'>
+2
+(68.0)
+</td>
+<td>
+Myo Gyi
+</td>
+</tr>
+<tr>
+<td>
+Lord MGEE
+</td>
+<td class='center'>
+0
+(47.0)
+</td>
+<td class='center'>
+1
+(59.0)
+</td>
+<td>
+mistery
+</td>
+</tr>
+<tr>
+<td>
+XAXI
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(96.0)
+</td>
+<td>
+pyae
+</td>
+</tr>
+<tr>
+<td>
+Dennis
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td>
+Chit Tun
+</td>
+</tr>
+<tr>
+<td>
+Metalking
+</td>
+<td class='center'>
+0
+(48.0)
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td>
+Phone Pyae
+</td>
+</tr>
+<tr>
+<td>
+koi
+</td>
+<td class='center'>
+1
+(64.0)
+</td>
+<td class='center'>
+2
+(61.0)
+</td>
+<td>
+Myo aung
+</td>
+</tr>
+<tr>
+<td>
+Koma
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td>
+Lin Tun 2
+</td>
+</tr>
+<tr>
+<td>
+minecraft:)
+</td>
+<td class='center'>
+2
+(98.0)
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td>
+ေက်ာ္​သူ​ေအာင္
+</td>
+</tr>
+<tr>
+<td>
+ooOAndyOoo
+</td>
+<td class='center'>
+2
+(78.0)
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td>
+g country
+</td>
+</tr>
+<tr>
+<td>
+Racker
+</td>
+<td class='center'>
+2
+(81.0)
+</td>
+<td class='center'>
+0
+(30.0)
+</td>
+<td>
+SOE MIN TUN123
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>assemike</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/duPjvGBy5Ptd6ZyGn4KpXzkxlxobLz0e2ONBo3PjiAk.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/9CtclQw9_f27EMH920kDB-8Sx4IWIZ6ZHWA6q9MU98g.png" /></td>
+<td>! KRIEG !</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>28</td>
+<td class='center' colspan='2'>Stars</td>
+<td>30</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>11</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>7</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>7</td>
+</tr>
+<tr>
+<td>6</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>8</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+mikesalon13
+</td>
+<td class='center'>
+1
+(90.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Sonne
+</td>
+</tr>
+<tr>
+<td>
+geronimo
+</td>
+<td class='center'>
+2
+(88.0)
+</td>
+<td class='center'>
+1
+(71.0)
+</td>
+<td>
+Bumbumboek
+</td>
+</tr>
+<tr>
+<td>
+sourdingue
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Sam Mumm
+</td>
+</tr>
+<tr>
+<td>
+mikabar
+</td>
+<td class='center'>
+2
+(87.0)
+</td>
+<td class='center'>
+1
+(67.0)
+</td>
+<td>
+Veganer Hopfen
+</td>
+</tr>
+<tr>
+<td>
+HellsCooker
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td class='center'>
+2
+(91.0)
+</td>
+<td>
+S0pr4n
+</td>
+</tr>
+<tr>
+<td>
+bvkugoub
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td class='center'>
+1
+(83.0)
+</td>
+<td>
+Max
+</td>
+</tr>
+<tr>
+<td>
+Garraty
+</td>
+<td class='center'>
+1
+(72.0)
+</td>
+<td class='center'>
+2
+(98.0)
+</td>
+<td>
+Kerstin
+</td>
+</tr>
+<tr>
+<td>
+luuud
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(79.0)
+</td>
+<td>
+Blutbad-Basti
+</td>
+</tr>
+<tr>
+<td>
+mika
+</td>
+<td class='center'>
+2
+(68.0)
+</td>
+<td class='center'>
+2
+(67.0)
+</td>
+<td>
+Lina-Marie
+</td>
+</tr>
+<tr>
+<td>
+joji
+</td>
+<td class='center'>
+2
+(67.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+c00kie
+</td>
+</tr>
+<tr>
+<td>
+mimisalon13
+</td>
+<td class='center'>
+2
+(68.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+Clash
+</td>
+</tr>
+<tr>
+<td>
+gg
+</td>
+<td class='center'>
+1
+(55.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Phönix
+</td>
+</tr>
+<tr>
+<td>
+@ckñologi@
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td class='center'>
+1
+(44.0)
+</td>
+<td>
+Mortar
+</td>
+</tr>
+<tr>
+<td>
+Etoile
+</td>
+<td class='center'>
+2
+(55.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+GinaMa
+</td>
+</tr>
+<tr>
+<td>
+DuncanIdaho
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Hexenkönig
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Kaamelott</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/g--9Yts35NJ4DI3NZh8_g5FTQptrVqHhHSRjzId1c2Q.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/kCFSj9HB3eEcN7f0JoE233bXqUzNKAHJyV4GFCMyaM4.png" /></td>
+<td>king ri</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>30</td>
+<td class='center' colspan='2'>Stars</td>
+<td>30</td>
+</tr>
+<tr>
+<td>14</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>14</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>5</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>4</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+Jack B.
+</td>
+<td class='center'>
+2
+(72.0)
+</td>
+<td class='center'>
+2
+(80.0)
+</td>
+<td>
+أبومحمد
+</td>
+</tr>
+<tr>
+<td>
+Yrrrk
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+almystero
+</td>
+</tr>
+<tr>
+<td>
+pitouxme
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td>
+خميس الظاهري
+</td>
+</tr>
+<tr>
+<td>
+fab
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+EASA X
+</td>
+</tr>
+<tr>
+<td>
+Tursul
+</td>
+<td class='center'>
+2
+(76.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+بومايد
+</td>
+</tr>
+<tr>
+<td>
+Smallguigui
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td class='center'>
+2
+(50.0)
+</td>
+<td>
+بوماايد 2
+</td>
+</tr>
+<tr>
+<td>
+alex
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td>
+mmmm
+</td>
+</tr>
+<tr>
+<td>
+RO
+</td>
+<td class='center'>
+2
+(99.0)
+</td>
+<td class='center'>
+2
+(73.0)
+</td>
+<td>
+S A L
+</td>
+</tr>
+<tr>
+<td>
+alpha
+</td>
+<td class='center'>
+2
+(86.0)
+</td>
+<td class='center'>
+1
+(83.0)
+</td>
+<td>
+saaa2
+</td>
+</tr>
+<tr>
+<td>
+reginovitch
+</td>
+<td class='center'>
+1
+(36.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+ᔕᗰටƙᙓᖇ
+</td>
+</tr>
+<tr>
+<td>
+Oliv29
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+AL KHALED
+</td>
+</tr>
+<tr>
+<td>
+PROFI_BUS
+</td>
+<td class='center'>
+1
+(43.0)
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td>
+6abooosh
+</td>
+</tr>
+<tr>
+<td>
+superlaurette
+</td>
+<td class='center'>
+2
+(81.0)
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td>
+3mor
+</td>
+</tr>
+<tr>
+<td>
+sangohan
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+زورو
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<h4>Round 2</h4>
+<table class='war'>
+<tr>
+<td>sudan</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/2FCvDIuh8gKnJcYlFiZeBAOPe9HMVztG-QK4lh-6OEc.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/NpoXo7UqnqHDwwM43798PazI9AcebEVj_po5vi22nt4.png" /></td>
+<td>Treue Schwerter</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>34</td>
+<td class='center' colspan='2'>Stars</td>
+<td>21</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>9</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>12</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>5</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+أبو حسام
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(68.0)
+</td>
+<td>
+Josef Dietrich
+</td>
+</tr>
+<tr>
+<td>
+شوقنا
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(80.0)
+</td>
+<td>
+speedfight_001
+</td>
+</tr>
+<tr>
+<td>
+ombada
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td class='center'>
+1
+(49.0)
+</td>
+<td>
+⚔️ Noggy ⚔️
+</td>
+</tr>
+<tr>
+<td>
+7abba
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+Wolle
+</td>
+</tr>
+<tr>
+<td>
+mad
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+0
+(49.0)
+</td>
+<td>
+saschispatzi75
+</td>
+</tr>
+<tr>
+<td>
+فان بيرسي
+</td>
+<td class='center'>
+2
+(51.0)
+</td>
+<td class='center'>
+0
+(48.0)
+</td>
+<td>
+&gt;&gt;chris&lt;&lt;
+</td>
+</tr>
+<tr>
+<td>
+abdo
+</td>
+<td class='center'>
+2
+(95.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+Lord MGEE
+</td>
+</tr>
+<tr>
+<td>
+Silent Killer
+</td>
+<td class='center'>
+2
+(78.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+XAXI
+</td>
+</tr>
+<tr>
+<td>
+polpol
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td>
+Dennis
+</td>
+</tr>
+<tr>
+<td>
+Jonpo5
+</td>
+<td class='center'>
+2
+(73.0)
+</td>
+<td class='center'>
+2
+(72.0)
+</td>
+<td>
+Metalking
+</td>
+</tr>
+<tr>
+<td>
+ايمن حمد
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td class='center'>
+1
+(66.0)
+</td>
+<td>
+koi
+</td>
+</tr>
+<tr>
+<td>
+jeirchio
+</td>
+<td class='center'>
+1
+(38.0)
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td>
+Koma
+</td>
+</tr>
+<tr>
+<td>
+naif
+</td>
+<td class='center'>
+2
+(80.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+minecraft:)
+</td>
+</tr>
+<tr>
+<td>
+mohammed musadq
+</td>
+<td class='center'>
+1
+(65.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+ooOAndyOoo
+</td>
+</tr>
+<tr>
+<td>
+mohamed
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(55.0)
+</td>
+<td>
+Racker
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>assemike</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/duPjvGBy5Ptd6ZyGn4KpXzkxlxobLz0e2ONBo3PjiAk.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/aRYhfiXBDZqfIP2fwCtEbnYbgl9mYvd00PsN1P9qkVc.png" /></td>
+<td>MyoMyanmarClan</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>32</td>
+<td class='center' colspan='2'>Stars</td>
+<td>35</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>8</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>6</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+mikesalon13
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+kyawyenaing
+</td>
+</tr>
+<tr>
+<td>
+geronimo
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Min Kyi Min Lay
+</td>
+</tr>
+<tr>
+<td>
+sourdingue
+</td>
+<td class='center'>
+1
+(68.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+soemintun
+</td>
+</tr>
+<tr>
+<td>
+mikabar
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td>
+myo min
+</td>
+</tr>
+<tr>
+<td>
+HellsCooker
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td class='center'>
+2
+(76.0)
+</td>
+<td>
+sam
+</td>
+</tr>
+<tr>
+<td>
+bvkugoub
+</td>
+<td class='center'>
+2
+(72.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Myo Gyi
+</td>
+</tr>
+<tr>
+<td>
+Garraty
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(74.0)
+</td>
+<td>
+mistery
+</td>
+</tr>
+<tr>
+<td>
+luuud
+</td>
+<td class='center'>
+2
+(98.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+pyae
+</td>
+</tr>
+<tr>
+<td>
+mika
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Chit Tun
+</td>
+</tr>
+<tr>
+<td>
+joji
+</td>
+<td class='center'>
+2
+(87.0)
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td>
+Phone Pyae
+</td>
+</tr>
+<tr>
+<td>
+mimisalon13
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td class='center'>
+1
+(78.0)
+</td>
+<td>
+Myo aung
+</td>
+</tr>
+<tr>
+<td>
+gg
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(88.0)
+</td>
+<td>
+Lin Tun 2
+</td>
+</tr>
+<tr>
+<td>
+@ckñologi@
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+ေက်ာ္​သူ​ေအာင္
+</td>
+</tr>
+<tr>
+<td>
+Etoile
+</td>
+<td class='center'>
+1
+(61.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+g country
+</td>
+</tr>
+<tr>
+<td>
+DuncanIdaho
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td>
+SOE MIN TUN123
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Kaamelott</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/g--9Yts35NJ4DI3NZh8_g5FTQptrVqHhHSRjzId1c2Q.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/9CtclQw9_f27EMH920kDB-8Sx4IWIZ6ZHWA6q9MU98g.png" /></td>
+<td>! KRIEG !</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>29</td>
+<td class='center' colspan='2'>Stars</td>
+<td>33</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>7</td>
+</tr>
+<tr>
+<td>6</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>8</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+Jack B.
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Sonne
+</td>
+</tr>
+<tr>
+<td>
+Yrrrk
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Bumbumboek
+</td>
+</tr>
+<tr>
+<td>
+pitouxme
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Sam Mumm
+</td>
+</tr>
+<tr>
+<td>
+fab
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(95.0)
+</td>
+<td>
+Veganer Hopfen
+</td>
+</tr>
+<tr>
+<td>
+Tursul
+</td>
+<td class='center'>
+2
+(96.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+S0pr4n
+</td>
+</tr>
+<tr>
+<td>
+Smallguigui
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td>
+Max
+</td>
+</tr>
+<tr>
+<td>
+alex
+</td>
+<td class='center'>
+0
+(42.0)
+</td>
+<td class='center'>
+2
+(90.0)
+</td>
+<td>
+Kerstin
+</td>
+</tr>
+<tr>
+<td>
+RO
+</td>
+<td class='center'>
+2
+(85.0)
+</td>
+<td class='center'>
+1
+(52.0)
+</td>
+<td>
+Blutbad-Basti
+</td>
+</tr>
+<tr>
+<td>
+alpha
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td>
+Lina-Marie
+</td>
+</tr>
+<tr>
+<td>
+papayou
+</td>
+<td class='center'>
+2
+(61.0)
+</td>
+<td class='center'>
+2
+(64.0)
+</td>
+<td>
+c00kie
+</td>
+</tr>
+<tr>
+<td>
+Oliv29
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td class='center'>
+2
+(67.0)
+</td>
+<td>
+Clash
+</td>
+</tr>
+<tr>
+<td>
+♣️ APOLLON ♣️
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+Phönix
+</td>
+</tr>
+<tr>
+<td>
+king of north
+</td>
+<td class='center'>
+1
+(65.0)
+</td>
+<td class='center'>
+2
+(77.0)
+</td>
+<td>
+Mortar
+</td>
+</tr>
+<tr>
+<td>
+PROFI_BUS
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td>
+GinaMa
+</td>
+</tr>
+<tr>
+<td>
+sangohan
+</td>
+<td class='center'>
+1
+(75.0)
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td>
+Hexenkönig
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Bremen</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/XH-gb9OnNSGV8hBOu5_S_lxNi0K3YeEmvUw1qBzusqg.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/kCFSj9HB3eEcN7f0JoE233bXqUzNKAHJyV4GFCMyaM4.png" /></td>
+<td>king ri</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>37</td>
+<td class='center' colspan='2'>Stars</td>
+<td>29</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>14</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>11</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>11</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>10</td>
+</tr>
+<tr>
+<td>4</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>3</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+Berry
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td>
+أبومحمد
+</td>
+</tr>
+<tr>
+<td>
+Highway to Hell
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td>
+almystero
+</td>
+</tr>
+<tr>
+<td>
+⚡️BIENE WOWA⚡️
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+خميس الظاهري
+</td>
+</tr>
+<tr>
+<td>
+Giggy
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td>
+£❤️ Ahmed ❤️£
+</td>
+</tr>
+<tr>
+<td>
+Metaphalon
+</td>
+<td class='center'>
+2
+(99.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+EASA X
+</td>
+</tr>
+<tr>
+<td>
+reallexa
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td>
+بومايد
+</td>
+</tr>
+<tr>
+<td>
+Jannik
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(80.0)
+</td>
+<td>
+بوماايد 2
+</td>
+</tr>
+<tr>
+<td>
+FuzzlyFeel
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td class='center'>
+2
+(99.0)
+</td>
+<td>
+mmmm
+</td>
+</tr>
+<tr>
+<td>
+BadMoonKiller
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td>
+S A L
+</td>
+</tr>
+<tr>
+<td>
+Anni Hexe
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+saaa2
+</td>
+</tr>
+<tr>
+<td>
+Renog
+</td>
+<td class='center'>
+2
+(81.0)
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td>
+ᔕᗰටƙᙓᖇ
+</td>
+</tr>
+<tr>
+<td>
+israfil
+</td>
+<td class='center'>
+2
+(51.0)
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+AL KHALED
+</td>
+</tr>
+<tr>
+<td>
+niclash
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td class='center'>
+2
+(85.0)
+</td>
+<td>
+3mor
+</td>
+</tr>
+<tr>
+<td>
+TheLUCKYSTRIKE
+</td>
+<td class='center'>
+2
+(84.0)
+</td>
+<td class='center'>
+1
+(46.0)
+</td>
+<td>
+زورو
+</td>
+</tr>
+<tr>
+<td>
+walter
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<h4>Round 3</h4>
+<table class='war'>
+<tr>
+<td>sudan</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/E4NOHFaHLFJgjF_CtT-3I2tp_V7nhZOyqAo1t-T-HAM.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/g--9Yts35NJ4DI3NZh8_g5FTQptrVqHhHSRjzId1c2Q.png" /></td>
+<td>Kaamelott</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>34</td>
+<td class='center' colspan='2'>Stars</td>
+<td>28</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>12</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>3</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+أبو حسام
+</td>
+<td class='center'>
+2
+(98.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+Jack B.
+</td>
+</tr>
+<tr>
+<td>
+شوقنا
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(71.0)
+</td>
+<td>
+Yrrrk
+</td>
+</tr>
+<tr>
+<td>
+ombada
+</td>
+<td class='center'>
+2
+(81.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+pitouxme
+</td>
+</tr>
+<tr>
+<td>
+7abba
+</td>
+<td class='center'>
+2
+(92.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+fab
+</td>
+</tr>
+<tr>
+<td>
+mad
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td>
+Tursul
+</td>
+</tr>
+<tr>
+<td>
+فان بيرسي
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td class='center'>
+2
+(96.0)
+</td>
+<td>
+Smallguigui
+</td>
+</tr>
+<tr>
+<td>
+abdo
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(50.0)
+</td>
+<td>
+alex
+</td>
+</tr>
+<tr>
+<td>
+Silent Killer
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+RO
+</td>
+</tr>
+<tr>
+<td>
+polpol
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+alpha
+</td>
+</tr>
+<tr>
+<td>
+Jonpo5
+</td>
+<td class='center'>
+1
+(51.0)
+</td>
+<td class='center'>
+0
+(14.0)
+</td>
+<td>
+steph
+</td>
+</tr>
+<tr>
+<td>
+ايمن حمد
+</td>
+<td class='center'>
+2
+(51.0)
+</td>
+<td class='center'>
+1
+(46.0)
+</td>
+<td>
+### ben ###
+</td>
+</tr>
+<tr>
+<td>
+jeirchio
+</td>
+<td class='center'>
+2
+(97.0)
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+Oliv29
+</td>
+</tr>
+<tr>
+<td>
+naif
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td>
+♣️ APOLLON ♣️
+</td>
+</tr>
+<tr>
+<td>
+mohammed musadq
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td>
+PROFI_BUS
+</td>
+</tr>
+<tr>
+<td>
+mohamed
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+sangohan
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Bremen</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/XH-gb9OnNSGV8hBOu5_S_lxNi0K3YeEmvUw1qBzusqg.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/NpoXo7UqnqHDwwM43798PazI9AcebEVj_po5vi22nt4.png" /></td>
+<td>Treue Schwerter</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>34</td>
+<td class='center' colspan='2'>Stars</td>
+<td>26</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>14</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>11</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>11</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>4</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>5</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+Berry
+</td>
+<td class='center'>
+2
+(80.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+speedfight_001
+</td>
+</tr>
+<tr>
+<td>
+Highway to Hell
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td class='center'>
+2
+(73.0)
+</td>
+<td>
+Josef Dietrich
+</td>
+</tr>
+<tr>
+<td>
+⚡️BIENE WOWA⚡️
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td>
+⚔️ Noggy ⚔️
+</td>
+</tr>
+<tr>
+<td>
+Giggy
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(50.0)
+</td>
+<td>
+Wolle
+</td>
+</tr>
+<tr>
+<td>
+Metaphalon
+</td>
+<td class='center'>
+2
+(67.0)
+</td>
+<td class='center'>
+2
+(81.0)
+</td>
+<td>
+saschispatzi75
+</td>
+</tr>
+<tr>
+<td>
+reallexa
+</td>
+<td class='center'>
+1
+(80.0)
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td>
+&gt;&gt;chris&lt;&lt;
+</td>
+</tr>
+<tr>
+<td>
+Jannik
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(76.0)
+</td>
+<td>
+Lord MGEE
+</td>
+</tr>
+<tr>
+<td>
+FuzzlyFeel
+</td>
+<td class='center'>
+1
+(39.0)
+</td>
+<td class='center'>
+2
+(73.0)
+</td>
+<td>
+XAXI
+</td>
+</tr>
+<tr>
+<td>
+BadMoonKiller
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td>
+Dennis
+</td>
+</tr>
+<tr>
+<td>
+Anni Hexe
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td class='center'>
+2
+(61.0)
+</td>
+<td>
+koi
+</td>
+</tr>
+<tr>
+<td>
+Renog
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(93.0)
+</td>
+<td>
+Koma
+</td>
+</tr>
+<tr>
+<td>
+israfil
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td>
+minecraft:)
+</td>
+</tr>
+<tr>
+<td>
+niclash
+</td>
+<td class='center'>
+2
+(55.0)
+</td>
+<td class='center'>
+2
+(84.0)
+</td>
+<td>
+ooOAndyOoo
+</td>
+</tr>
+<tr>
+<td>
+TheLUCKYSTRIKE
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(52.0)
+</td>
+<td>
+Racker
+</td>
+</tr>
+<tr>
+<td>
+walter
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>MyoMyanmarClan</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/aRYhfiXBDZqfIP2fwCtEbnYbgl9mYvd00PsN1P9qkVc.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/9CtclQw9_f27EMH920kDB-8Sx4IWIZ6ZHWA6q9MU98g.png" /></td>
+<td>! KRIEG !</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>28</td>
+<td class='center' colspan='2'>Stars</td>
+<td>31</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>11</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>5</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+kyawyenaing
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td class='center'>
+2
+(99.0)
+</td>
+<td>
+Sonne
+</td>
+</tr>
+<tr>
+<td>
+myo min
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(95.0)
+</td>
+<td>
+Bumbumboek
+</td>
+</tr>
+<tr>
+<td>
+Min Kyi Min Lay
+</td>
+<td class='center'>
+2
+(84.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Sam Mumm
+</td>
+</tr>
+<tr>
+<td>
+soemintun
+</td>
+<td class='center'>
+1
+(57.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Veganer Hopfen
+</td>
+</tr>
+<tr>
+<td>
+sam
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+S0pr4n
+</td>
+</tr>
+<tr>
+<td>
+Myo Gyi
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Kerstin
+</td>
+</tr>
+<tr>
+<td>
+mistery
+</td>
+<td class='center'>
+0
+(47.0)
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td>
+Lina-Marie
+</td>
+</tr>
+<tr>
+<td>
+pyae
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td>
+c00kie
+</td>
+</tr>
+<tr>
+<td>
+Chit Tun
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td>
+Clash
+</td>
+</tr>
+<tr>
+<td>
+Phone Pyae
+</td>
+<td class='center'>
+2
+(75.0)
+</td>
+<td class='center'>
+2
+(76.0)
+</td>
+<td>
+Phönix
+</td>
+</tr>
+<tr>
+<td>
+Myo aung
+</td>
+<td class='center'>
+2
+(81.0)
+</td>
+<td class='center'>
+0
+(45.0)
+</td>
+<td>
+Mortar
+</td>
+</tr>
+<tr>
+<td>
+Lin Tun 2
+</td>
+<td class='center'>
+2
+(75.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+GinaMa
+</td>
+</tr>
+<tr>
+<td>
+ေက်ာ္​သူ​ေအာင္
+</td>
+<td class='center'>
+2
+(86.0)
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td>
+Hexenkönig
+</td>
+</tr>
+<tr>
+<td>
+g country
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td class='center'>
+1
+(65.0)
+</td>
+<td>
+dayachamp
+</td>
+</tr>
+<tr>
+<td>
+SOE MIN TUN123
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td>
+Calle
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>assemike</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/duPjvGBy5Ptd6ZyGn4KpXzkxlxobLz0e2ONBo3PjiAk.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/kCFSj9HB3eEcN7f0JoE233bXqUzNKAHJyV4GFCMyaM4.png" /></td>
+<td>king ri</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>34</td>
+<td class='center' colspan='2'>Stars</td>
+<td>30</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>8</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>6</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>4</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+mikesalon13
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td class='center'>
+1
+(72.0)
+</td>
+<td>
+أبومحمد
+</td>
+</tr>
+<tr>
+<td>
+geronimo
+</td>
+<td class='center'>
+2
+(73.0)
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td>
+almystero
+</td>
+</tr>
+<tr>
+<td>
+sourdingue
+</td>
+<td class='center'>
+2
+(86.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+خميس الظاهري
+</td>
+</tr>
+<tr>
+<td>
+mikabar
+</td>
+<td class='center'>
+2
+(84.0)
+</td>
+<td class='center'>
+2
+(76.0)
+</td>
+<td>
+EASA X
+</td>
+</tr>
+<tr>
+<td>
+HellsCooker
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td class='center'>
+2
+(71.0)
+</td>
+<td>
+بومايد
+</td>
+</tr>
+<tr>
+<td>
+bvkugoub
+</td>
+<td class='center'>
+2
+(50.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+بوماايد 2
+</td>
+</tr>
+<tr>
+<td>
+Garraty
+</td>
+<td class='center'>
+2
+(64.0)
+</td>
+<td class='center'>
+2
+(72.0)
+</td>
+<td>
+mmmm
+</td>
+</tr>
+<tr>
+<td>
+luuud
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+0
+(47.0)
+</td>
+<td>
+S A L
+</td>
+</tr>
+<tr>
+<td>
+mika
+</td>
+<td class='center'>
+2
+(76.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+saaa2
+</td>
+</tr>
+<tr>
+<td>
+joji
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td>
+ᔕᗰටƙᙓᖇ
+</td>
+</tr>
+<tr>
+<td>
+mimisalon13
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+AL KHALED
+</td>
+</tr>
+<tr>
+<td>
+gg
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(78.0)
+</td>
+<td>
+6abooosh
+</td>
+</tr>
+<tr>
+<td>
+@ckñologi@
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(60.0)
+</td>
+<td>
+3mor
+</td>
+</tr>
+<tr>
+<td>
+Etoile
+</td>
+<td class='center'>
+1
+(67.0)
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+زورو
+</td>
+</tr>
+<tr>
+<td>
+DuncanIdaho
+</td>
+<td class='center'>
+2
+(61.0)
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td>
+xx.THE KING.xx
+</td>
+</tr>
+</table>
+<h4>Round 4</h4>
+<table class='war'>
+<tr>
+<td>Bremen</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/XH-gb9OnNSGV8hBOu5_S_lxNi0K3YeEmvUw1qBzusqg.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/g--9Yts35NJ4DI3NZh8_g5FTQptrVqHhHSRjzId1c2Q.png" /></td>
+<td>Kaamelott</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>35</td>
+<td class='center' colspan='2'>Stars</td>
+<td>26</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>6</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>5</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>11</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>4</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+Berry
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+Jack B.
+</td>
+</tr>
+<tr>
+<td>
+Highway to Hell
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Yrrrk
+</td>
+</tr>
+<tr>
+<td>
+⚡️BIENE WOWA⚡️
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+pitouxme
+</td>
+</tr>
+<tr>
+<td>
+Giggy
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+fab
+</td>
+</tr>
+<tr>
+<td>
+Metaphalon
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td class='center'>
+2
+(75.0)
+</td>
+<td>
+Smallguigui
+</td>
+</tr>
+<tr>
+<td>
+reallexa
+</td>
+<td class='center'>
+2
+(73.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+Tursul
+</td>
+</tr>
+<tr>
+<td>
+Jannik
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(80.0)
+</td>
+<td>
+alex
+</td>
+</tr>
+<tr>
+<td>
+FuzzlyFeel
+</td>
+<td class='center'>
+2
+(96.0)
+</td>
+<td class='center'>
+1
+(71.0)
+</td>
+<td>
+RO
+</td>
+</tr>
+<tr>
+<td>
+BadMoonKiller
+</td>
+<td class='center'>
+2
+(61.0)
+</td>
+<td class='center'>
+1
+(42.0)
+</td>
+<td>
+alpha
+</td>
+</tr>
+<tr>
+<td>
+Anni Hexe
+</td>
+<td class='center'>
+1
+(40.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+inglorious
+</td>
+</tr>
+<tr>
+<td>
+Renog
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(47.0)
+</td>
+<td>
+yolinnie
+</td>
+</tr>
+<tr>
+<td>
+israfil
+</td>
+<td class='center'>
+2
+(87.0)
+</td>
+<td class='center'>
+1
+(43.0)
+</td>
+<td>
+Oliv29
+</td>
+</tr>
+<tr>
+<td>
+niclash
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td class='center'>
+1
+(56.0)
+</td>
+<td>
+♣️ APOLLON ♣️
+</td>
+</tr>
+<tr>
+<td>
+TheLUCKYSTRIKE
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td>
+PROFI_BUS
+</td>
+</tr>
+<tr>
+<td>
+walter
+</td>
+<td class='center'>
+2
+(96.0)
+</td>
+<td class='center'>
+0
+(38.0)
+</td>
+<td>
+sangohan
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Treue Schwerter</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/NpoXo7UqnqHDwwM43798PazI9AcebEVj_po5vi22nt4.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/9CtclQw9_f27EMH920kDB-8Sx4IWIZ6ZHWA6q9MU98g.png" /></td>
+<td>! KRIEG !</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>28</td>
+<td class='center' colspan='2'>Stars</td>
+<td>33</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>5</td>
+</tr>
+<tr>
+<td>11</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>8</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>10</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>7</td>
+</tr>
+<tr>
+<td>5</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>8</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+speedfight_001
+</td>
+<td class='center'>
+2
+(88.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Sonne
+</td>
+</tr>
+<tr>
+<td>
+Josef Dietrich
+</td>
+<td class='center'>
+2
+(55.0)
+</td>
+<td class='center'>
+2
+(99.0)
+</td>
+<td>
+Bumbumboek
+</td>
+</tr>
+<tr>
+<td>
+⚔️ Noggy ⚔️
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td class='center'>
+2
+(81.0)
+</td>
+<td>
+Sam Mumm
+</td>
+</tr>
+<tr>
+<td>
+Wolle
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Veganer Hopfen
+</td>
+</tr>
+<tr>
+<td>
+saschispatzi75
+</td>
+<td class='center'>
+2
+(90.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+S0pr4n
+</td>
+</tr>
+<tr>
+<td>
+&gt;&gt;chris&lt;&lt;
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Max
+</td>
+</tr>
+<tr>
+<td>
+Lord MGEE
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Kerstin
+</td>
+</tr>
+<tr>
+<td>
+XAXI
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td>
+Lina-Marie
+</td>
+</tr>
+<tr>
+<td>
+Dennis
+</td>
+<td class='center'>
+1
+(69.0)
+</td>
+<td class='center'>
+1
+(45.0)
+</td>
+<td>
+c00kie
+</td>
+</tr>
+<tr>
+<td>
+Metalking
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td>
+Clash
+</td>
+</tr>
+<tr>
+<td>
+koi
+</td>
+<td class='center'>
+1
+(44.0)
+</td>
+<td class='center'>
+2
+(64.0)
+</td>
+<td>
+Phönix
+</td>
+</tr>
+<tr>
+<td>
+Koma
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+GinaMa
+</td>
+</tr>
+<tr>
+<td>
+minecraft:)
+</td>
+<td class='center'>
+2
+(79.0)
+</td>
+<td class='center'>
+2
+(50.0)
+</td>
+<td>
+Hexenkönig
+</td>
+</tr>
+<tr>
+<td>
+ooOAndyOoo
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+dayachamp
+</td>
+</tr>
+<tr>
+<td>
+Racker
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td class='center'>
+1
+(45.0)
+</td>
+<td>
+Calle
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>sudan</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/E4NOHFaHLFJgjF_CtT-3I2tp_V7nhZOyqAo1t-T-HAM.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/duPjvGBy5Ptd6ZyGn4KpXzkxlxobLz0e2ONBo3PjiAk.png" /></td>
+<td>assemike</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>35</td>
+<td class='center' colspan='2'>Stars</td>
+<td>25</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>14</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>8</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>13</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>8</td>
+</tr>
+<tr>
+<td>2</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+أبو حسام
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(78.0)
+</td>
+<td>
+mikesalon13
+</td>
+</tr>
+<tr>
+<td>
+شوقنا
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+0
+(49.0)
+</td>
+<td>
+geronimo
+</td>
+</tr>
+<tr>
+<td>
+7abba
+</td>
+<td class='center'>
+2
+(79.0)
+</td>
+<td class='center'>
+1
+(61.0)
+</td>
+<td>
+sourdingue
+</td>
+</tr>
+<tr>
+<td>
+ombada
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+mikabar
+</td>
+</tr>
+<tr>
+<td>
+mad
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td>
+bvkugoub
+</td>
+</tr>
+<tr>
+<td>
+Sami
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Garraty
+</td>
+</tr>
+<tr>
+<td>
+فان بيرسي
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(86.0)
+</td>
+<td>
+luuud
+</td>
+</tr>
+<tr>
+<td>
+abdo
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td>
+mika
+</td>
+</tr>
+<tr>
+<td>
+Silent Killer
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td>
+joji
+</td>
+</tr>
+<tr>
+<td>
+polpol
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td class='center'>
+2
+(64.0)
+</td>
+<td>
+mimisalon13
+</td>
+</tr>
+<tr>
+<td>
+Jonpo5
+</td>
+<td class='center'>
+2
+(55.0)
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td>
+@ckñologi@
+</td>
+</tr>
+<tr>
+<td>
+ايمن حمد
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td>
+gg
+</td>
+</tr>
+<tr>
+<td>
+jeirchio
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(42.0)
+</td>
+<td>
+Etoile
+</td>
+</tr>
+<tr>
+<td>
+naif
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td class='center'>
+2
+(55.0)
+</td>
+<td>
+DuncanIdaho
+</td>
+</tr>
+<tr>
+<td>
+mohamed
+</td>
+<td class='center'>
+1
+(71.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>MyoMyanmarClan</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/aRYhfiXBDZqfIP2fwCtEbnYbgl9mYvd00PsN1P9qkVc.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/kCFSj9HB3eEcN7f0JoE233bXqUzNKAHJyV4GFCMyaM4.png" /></td>
+<td>king ri</td>
+</tr>
+<tr>
+<td colspan='4'>warEnded</td>
+</tr>
+<tr>
+<td>27</td>
+<td class='center' colspan='2'>Stars</td>
+<td>23</td>
+</tr>
+<tr>
+<td>14</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>12</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>9</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>10</td>
+</tr>
+<tr>
+<td>5</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+kyawyenaing
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td class='center'>
+2
+(93.0)
+</td>
+<td>
+أبومحمد
+</td>
+</tr>
+<tr>
+<td>
+Min Kyi Min Lay
+</td>
+<td class='center'>
+0
+(45.0)
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td>
+almystero
+</td>
+</tr>
+<tr>
+<td>
+soemintun
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td class='center'>
+2
+(71.0)
+</td>
+<td>
+خميس الظاهري
+</td>
+</tr>
+<tr>
+<td>
+sam
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+عبدالله بن سالم
+</td>
+</tr>
+<tr>
+<td>
+Myo Gyi
+</td>
+<td class='center'>
+1
+(71.0)
+</td>
+<td class='center'>
+1
+(54.0)
+</td>
+<td>
+EASA X
+</td>
+</tr>
+<tr>
+<td>
+mistery
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+بومايد
+</td>
+</tr>
+<tr>
+<td>
+pyae
+</td>
+<td class='center'>
+2
+(87.0)
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td>
+بوماايد 2
+</td>
+</tr>
+<tr>
+<td>
+Chit Tun
+</td>
+<td class='center'>
+2
+(79.0)
+</td>
+<td class='center'>
+2
+(96.0)
+</td>
+<td>
+mmmm
+</td>
+</tr>
+<tr>
+<td>
+Phone Pyae
+</td>
+<td class='center'>
+2
+(87.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+S A L
+</td>
+</tr>
+<tr>
+<td>
+Myo aung
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+saaa2
+</td>
+</tr>
+<tr>
+<td>
+Lin Tun 2
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(95.0)
+</td>
+<td>
+ᔕᗰටƙᙓᖇ
+</td>
+</tr>
+<tr>
+<td>
+ေက်ာ္​သူ​ေအာင္
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(65.0)
+</td>
+<td>
+AL KHALED
+</td>
+</tr>
+<tr>
+<td>
+g country
+</td>
+<td class='center'>
+1
+(46.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+SOE MIN TUN123
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<h4>Round 5</h4>
+<table class='war'>
+<tr>
+<td>Treue Schwerter</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/NpoXo7UqnqHDwwM43798PazI9AcebEVj_po5vi22nt4.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/kCFSj9HB3eEcN7f0JoE233bXqUzNKAHJyV4GFCMyaM4.png" /></td>
+<td>king ri</td>
+</tr>
+<tr>
+<td colspan='4'>inWar</td>
+</tr>
+<tr>
+<td>25</td>
+<td class='center' colspan='2'>Stars</td>
+<td>21</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>13</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>7</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>10</td>
+</tr>
+<tr>
+<td>5</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>3</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+speedfight_001
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td class='center'>
+2
+(85.0)
+</td>
+<td>
+أبومحمد
+</td>
+</tr>
+<tr>
+<td>
+Josef Dietrich
+</td>
+<td class='center'>
+0
+(34.0)
+</td>
+<td class='center'>
+2
+(97.0)
+</td>
+<td>
+خميس الظاهري
+</td>
+</tr>
+<tr>
+<td>
+⚔️ Noggy ⚔️
+</td>
+<td class='center'>
+1
+(49.0)
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td>
+EASA X
+</td>
+</tr>
+<tr>
+<td>
+Wolle
+</td>
+<td class='center'>
+2
+(71.0)
+</td>
+<td class='center'>
+0
+(47.0)
+</td>
+<td>
+£❤️ Ahmed ❤️£
+</td>
+</tr>
+<tr>
+<td>
+saschispatzi75
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(75.0)
+</td>
+<td>
+عبدالله بن سالم
+</td>
+</tr>
+<tr>
+<td>
+&gt;&gt;chris&lt;&lt;
+</td>
+<td class='center'>
+2
+(72.0)
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td>
+بومايد
+</td>
+</tr>
+<tr>
+<td>
+Lord MGEE
+</td>
+<td class='center'>
+2
+(67.0)
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td>
+بوماايد 2
+</td>
+</tr>
+<tr>
+<td>
+XAXI
+</td>
+<td class='center'>
+2
+(72.0)
+</td>
+<td class='center'>
+1
+(90.0)
+</td>
+<td>
+mmmm
+</td>
+</tr>
+<tr>
+<td>
+Dennis
+</td>
+<td class='center'>
+1
+(94.0)
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td>
+S A L
+</td>
+</tr>
+<tr>
+<td>
+Metalking
+</td>
+<td class='center'>
+0
+(42.0)
+</td>
+<td class='center'>
+2
+(60.0)
+</td>
+<td>
+saaa2
+</td>
+</tr>
+<tr>
+<td>
+koi
+</td>
+<td class='center'>
+2
+(50.0)
+</td>
+<td class='center'>
+1
+(73.0)
+</td>
+<td>
+ᔕᗰටƙᙓᖇ
+</td>
+</tr>
+<tr>
+<td>
+Koma
+</td>
+<td class='center'>
+2
+(54.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+AL KHALED
+</td>
+</tr>
+<tr>
+<td>
+minecraft:)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td>
+6abooosh
+</td>
+</tr>
+<tr>
+<td>
+ooOAndyOoo
+</td>
+<td class='center'>
+1
+(66.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+Racker
+</td>
+<td class='center'>
+2
+(62.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>assemike</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/duPjvGBy5Ptd6ZyGn4KpXzkxlxobLz0e2ONBo3PjiAk.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/g--9Yts35NJ4DI3NZh8_g5FTQptrVqHhHSRjzId1c2Q.png" /></td>
+<td>Kaamelott</td>
+</tr>
+<tr>
+<td colspan='4'>inWar</td>
+</tr>
+<tr>
+<td>25</td>
+<td class='center' colspan='2'>Stars</td>
+<td>34</td>
+</tr>
+<tr>
+<td>14</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>15</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>7</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>5</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>5</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>9</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+mikesalon13
+</td>
+<td class='center'>
+2
+(77.0)
+</td>
+<td class='center'>
+2
+(69.0)
+</td>
+<td>
+Jack B.
+</td>
+</tr>
+<tr>
+<td>
+geronimo
+</td>
+<td class='center'>
+1
+(54.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Yrrrk
+</td>
+</tr>
+<tr>
+<td>
+sourdingue
+</td>
+<td class='center'>
+2
+(70.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+pitouxme
+</td>
+</tr>
+<tr>
+<td>
+Garraty
+</td>
+<td class='center'>
+1
+(60.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+fab
+</td>
+</tr>
+<tr>
+<td>
+luuud
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(59.0)
+</td>
+<td>
+Smallguigui
+</td>
+</tr>
+<tr>
+<td>
+joji
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td class='center'>
+1
+(53.0)
+</td>
+<td>
+Tursul
+</td>
+</tr>
+<tr>
+<td>
+rosemary
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td class='center'>
+1
+(40.0)
+</td>
+<td>
+alex
+</td>
+</tr>
+<tr>
+<td>
+mimisalon13
+</td>
+<td class='center'>
+1
+(48.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+RO
+</td>
+</tr>
+<tr>
+<td>
+QUI-JON
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+alpha
+</td>
+</tr>
+<tr>
+<td>
+@ckñologi@
+</td>
+<td class='center'>
+2
+(68.0)
+</td>
+<td class='center'>
+1
+(30.0)
+</td>
+<td>
+papayou
+</td>
+</tr>
+<tr>
+<td>
+gg
+</td>
+<td class='center'>
+2
+(67.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Oliv29
+</td>
+</tr>
+<tr>
+<td>
+Ryuk
+</td>
+<td class='center'>
+1
+(77.0)
+</td>
+<td class='center'>
+2
+(63.0)
+</td>
+<td>
+♣️ APOLLON ♣️
+</td>
+</tr>
+<tr>
+<td>
+Etoile
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+PROFI_BUS
+</td>
+</tr>
+<tr>
+<td>
+DuncanIdaho
+</td>
+<td class='center'>
+1
+(47.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+tradox
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+2
+(56.0)
+</td>
+<td>
+sangohan
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Bremen</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/XH-gb9OnNSGV8hBOu5_S_lxNi0K3YeEmvUw1qBzusqg.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/aRYhfiXBDZqfIP2fwCtEbnYbgl9mYvd00PsN1P9qkVc.png" /></td>
+<td>MyoMyanmarClan</td>
+</tr>
+<tr>
+<td colspan='4'>inWar</td>
+</tr>
+<tr>
+<td>30</td>
+<td class='center' colspan='2'>Stars</td>
+<td>21</td>
+</tr>
+<tr>
+<td>14</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>12</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>10</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>9</td>
+</tr>
+<tr>
+<td>4</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>3</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+Berry
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(66.0)
+</td>
+<td>
+kyawyenaing
+</td>
+</tr>
+<tr>
+<td>
+⚡️BIENE WOWA⚡️
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td>
+Min Kyi Min Lay
+</td>
+</tr>
+<tr>
+<td>
+Giggy
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+0
+(23.0)
+</td>
+<td>
+soemintun
+</td>
+</tr>
+<tr>
+<td>
+Metaphalon
+</td>
+<td class='center'>
+1
+(55.0)
+</td>
+<td class='center'>
+2
+(89.0)
+</td>
+<td>
+myo min
+</td>
+</tr>
+<tr>
+<td>
+reallexa
+</td>
+<td class='center'>
+1
+(64.0)
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td>
+sam
+</td>
+</tr>
+<tr>
+<td>
+Jannik
+</td>
+<td class='center'>
+2
+(88.0)
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td>
+Myo Gyi
+</td>
+</tr>
+<tr>
+<td>
+FuzzlyFeel
+</td>
+<td class='center'>
+1
+(82.0)
+</td>
+<td class='center'>
+2
+(84.0)
+</td>
+<td>
+pyae
+</td>
+</tr>
+<tr>
+<td>
+BadMoonKiller
+</td>
+<td class='center'>
+2
+(87.0)
+</td>
+<td class='center'>
+1
+(68.0)
+</td>
+<td>
+Chit Tun
+</td>
+</tr>
+<tr>
+<td>
+Anni Hexe
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td>
+Phone Pyae
+</td>
+</tr>
+<tr>
+<td>
+Renog
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(71.0)
+</td>
+<td>
+Myo aung
+</td>
+</tr>
+<tr>
+<td>
+israfil
+</td>
+<td class='center'>
+1
+(66.0)
+</td>
+<td class='center'>
+2
+(94.0)
+</td>
+<td>
+Lin Tun 2
+</td>
+</tr>
+<tr>
+<td>
+niclash
+</td>
+<td class='center'>
+2
+(65.0)
+</td>
+<td class='center'>
+2
+(52.0)
+</td>
+<td>
+SOE MIN TUN123
+</td>
+</tr>
+<tr>
+<td>
+TheLUCKYSTRIKE
+</td>
+<td class='center'>
+2
+(82.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+walter
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>sudan</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/E4NOHFaHLFJgjF_CtT-3I2tp_V7nhZOyqAo1t-T-HAM.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/9CtclQw9_f27EMH920kDB-8Sx4IWIZ6ZHWA6q9MU98g.png" /></td>
+<td>! KRIEG !</td>
+</tr>
+<tr>
+<td colspan='4'>inWar</td>
+</tr>
+<tr>
+<td>37</td>
+<td class='center' colspan='2'>Stars</td>
+<td>29</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>14</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>3</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>13</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>8</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+أبو حسام
+</td>
+<td class='center'>
+2
+(95.0)
+</td>
+<td class='center'>
+1
+(53.0)
+</td>
+<td>
+Sonne
+</td>
+</tr>
+<tr>
+<td>
+شوقنا
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Bumbumboek
+</td>
+</tr>
+<tr>
+<td>
+ombada
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Sam Mumm
+</td>
+</tr>
+<tr>
+<td>
+7abba
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(96.0)
+</td>
+<td>
+S0pr4n
+</td>
+</tr>
+<tr>
+<td>
+mad
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td>
+Max
+</td>
+</tr>
+<tr>
+<td>
+Sami
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+1
+(90.0)
+</td>
+<td>
+Kerstin
+</td>
+</tr>
+<tr>
+<td>
+فان بيرسي
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td>
+Lina-Marie
+</td>
+</tr>
+<tr>
+<td>
+abdo
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(83.0)
+</td>
+<td>
+c00kie
+</td>
+</tr>
+<tr>
+<td>
+Silent Killer
+</td>
+<td class='center'>
+2
+(93.0)
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td>
+Clash
+</td>
+</tr>
+<tr>
+<td>
+polpol
+</td>
+<td class='center'>
+3
+(100.0)
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td>
+Phönix
+</td>
+</tr>
+<tr>
+<td>
+Jonpo5
+</td>
+<td class='center'>
+2
+(92.0)
+</td>
+<td class='center'>
+2
+(53.0)
+</td>
+<td>
+Mortar
+</td>
+</tr>
+<tr>
+<td>
+ايمن حمد
+</td>
+<td class='center'>
+1
+(65.0)
+</td>
+<td class='center'>
+2
+(74.0)
+</td>
+<td>
+GinaMa
+</td>
+</tr>
+<tr>
+<td>
+jeirchio
+</td>
+<td class='center'>
+2
+(57.0)
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td>
+Hexenkönig
+</td>
+</tr>
+<tr>
+<td>
+Batera
+</td>
+<td class='center'>
+2
+(51.0)
+</td>
+<td class='center'>
+2
+(51.0)
+</td>
+<td>
+dayachamp
+</td>
+</tr>
+<tr>
+<td>
+khalid mohamed
+</td>
+<td class='center'>
+2
+(58.0)
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<h4>Round 6</h4>
+<h4>Round 7</h4>
+
+  </body>
+</html>
