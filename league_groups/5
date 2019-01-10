@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CocClanManagement</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="vOK3lmU2DAl9AjtvdnOr4GPjcE0QrOsmOE3+fO1q8HrRwTBhQ0opaQI9sSOTdpCde3o9SMSaKsfm2e99R+Pizg==" />
+    
+
+    <link rel="stylesheet" media="all" href="/assets/league_groups.self-3ea31e99c5429e71de465a059353280e75b2ebb1dcc6cf25a480490373141ea9.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1" data-turbolinks-track="reload" />
+    <script src="/assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/league_groups.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <h2>League Group</h2>
+<a rel="nofollow" data-method="put" href="/coc_wars/league_groups/5">Update</a>
+<table class='league_information'>
+<tr>
+<td>
+<span class='label'>State</span>
+</td>
+<td>
+<span class='value'>preparation</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label'>Season</span>
+</td>
+<td>
+<span class='value'>2019-01</span>
+</td>
+</tr>
+</table>
+<h3>Clans</h3>
+<table class='clans'>
+<tr>
+<th></th>
+<th>Name</th>
+<th>Tag</th>
+<th>12</th>
+<th>11</th>
+<th>10</th>
+<th>9</th>
+<th>8</th>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/28jJ_9OEEFsnuKS0f9Ej6hMAEty_v6OhYIa7DPuz-Zk.png" /></td>
+<td>cluj</td>
+<td>#V0UUPYJ</td>
+<td>19</td>
+<td>7</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/B1WXzQad2K6UzqXx3qYIdYP9HNqoepb-8Qv_qLBRywQ.png" /></td>
+<td>ไทย น่ารักๆคร๊า</td>
+<td>#8U8JCL2</td>
+<td>19</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/elFsLCFJQVvZdvUFotdXgZ4LAtOtRSon7mxtY8T_c7M.png" /></td>
+<td>Bremen</td>
+<td>#2PC8RGPR</td>
+<td>14</td>
+<td>9</td>
+<td>15</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/FZclOlJAddEzv6SF2tr_Z7oVLFU118tTVu0vgrGb6OE.png" /></td>
+<td>team 17</td>
+<td>#8222VUQP</td>
+<td>9</td>
+<td>8</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/mxy0n5CmxM60-NLwianK9UzjNTSdegrmtlgHPCf7swI.png" /></td>
+<td>I AM BEASTMODE</td>
+<td>#20GYCPLY</td>
+<td>12</td>
+<td>4</td>
+<td>8</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/SmBONPlXMos81Dl5Z308ca4x_tVLIPZB63EdOQIi7DE.png" /></td>
+<td>PARS GUARDIAN</td>
+<td>#G29UYUY</td>
+<td>22</td>
+<td>6</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/hF05L0bjf0Ag0N4v9NPfeCYkke6GG4XCyYTe5cYUd1o.png" /></td>
+<td>☆《BelZebú》☆</td>
+<td>#20JUCPYL</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td><img src="https://api-assets.clashofclans.com/badges/70/cPniWc6A3A0PIls8KSOZMjZx9eqSA_FtxSoV1LATP6E.png" /></td>
+<td>سوريا ياحبيبتي</td>
+<td>#PVY08YGG</td>
+<td>28</td>
+<td>8</td>
+<td>8</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</table>
+<h3>Rounds</h3>
+<h4>Round 1</h4>
+<table class='war'>
+<tr>
+<td>ไทย น่ารักๆคร๊า</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/B1WXzQad2K6UzqXx3qYIdYP9HNqoepb-8Qv_qLBRywQ.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/mxy0n5CmxM60-NLwianK9UzjNTSdegrmtlgHPCf7swI.png" /></td>
+<td>I AM BEASTMODE</td>
+</tr>
+<tr>
+<td colspan='4'>preparation</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Stars</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>Bremen</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/elFsLCFJQVvZdvUFotdXgZ4LAtOtRSon7mxtY8T_c7M.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/SmBONPlXMos81Dl5Z308ca4x_tVLIPZB63EdOQIi7DE.png" /></td>
+<td>PARS GUARDIAN</td>
+</tr>
+<tr>
+<td colspan='4'>preparation</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Stars</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>cluj</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/28jJ_9OEEFsnuKS0f9Ej6hMAEty_v6OhYIa7DPuz-Zk.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/FZclOlJAddEzv6SF2tr_Z7oVLFU118tTVu0vgrGb6OE.png" /></td>
+<td>team 17</td>
+</tr>
+<tr>
+<td colspan='4'>preparation</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Stars</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<table class='war'>
+<tr>
+<td>☆《BelZebú》☆</td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/hF05L0bjf0Ag0N4v9NPfeCYkke6GG4XCyYTe5cYUd1o.png" /></td>
+<td class='center'><img src="https://api-assets.clashofclans.com/badges/70/cPniWc6A3A0PIls8KSOZMjZx9eqSA_FtxSoV1LATP6E.png" /></td>
+<td>سوريا ياحبيبتي</td>
+</tr>
+<tr>
+<td colspan='4'>preparation</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Stars</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>3 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>2 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>1 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td class='center' colspan='2'>0 Star</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH12 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH11 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH10 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH9 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td colspan='2'>TH8 Attacks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class='center'>
+</td>
+<td class='center'>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<h4>Round 2</h4>
+<h4>Round 3</h4>
+<h4>Round 4</h4>
+<h4>Round 5</h4>
+<h4>Round 6</h4>
+<h4>Round 7</h4>
+
+  </body>
+</html>
