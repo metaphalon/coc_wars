@@ -1,0 +1,64 @@
+/* line 5, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+h4 {
+  clear: both;
+}
+
+/* line 8, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.clans {
+  width: 500px;
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+/* line 12, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.clans tr {
+  border: 1px solid black;
+}
+/* line 15, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.clans th {
+  font-weight: bold;
+  text-align: left;
+}
+/* line 19, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.clans td:nth-child(8),
+table.clans td:nth-child(4),
+table.clans td:nth-child(5),
+table.clans td:nth-child(6),
+table.clans td:nth-child(7),
+table.clans th:nth-child(8),
+table.clans th:nth-child(4),
+table.clans th:nth-child(5),
+table.clans th:nth-child(6),
+table.clans th:nth-child(7) {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 3px;
+  width: 20px;
+  text-align: center;
+}
+
+/* line 36, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.war {
+  float: left;
+  margin-right: 40px;
+  border: solid 1px black;
+  padding: 5px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+/* line 45, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.war tr td {
+  width: 25%;
+}
+/* line 48, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.war tr td:first-child {
+  text-align: right;
+}
+/* line 52, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.war tr td.center img {
+  max-height: 70px;
+  max-width: 70px;
+}
+/* line 57, /home/ritsche/workspace/coc_clan_management/app/assets/stylesheets/league_groups.scss */
+table.war tr td[colspan], table.war tr td.center {
+  text-align: center;
+}
